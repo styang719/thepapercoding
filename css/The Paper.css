@@ -1,0 +1,498 @@
+*{
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family:"Ropa Sans", sans-serif;
+  width:100vw;
+  margin:0%;
+}
+
+nav {
+  width: 100vw;
+  height: 8%;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: fixed;
+  top: 0%;
+  z-index:9999;
+}
+
+main {
+  width: 100vw;
+}
+
+div.navcontent {
+  width: 40%;
+  min-width: 500px;
+  float: right;
+}
+
+
+
+div.navcontent ul > li{
+  display: inline;
+  float: left;
+  color: white;
+}
+
+div.navcontent ul > li > a{
+  font-family: "Avenir Next", sans-serif;
+  font-weight: 300;
+  color: #4A4A4A;
+  padding: 5px 20px 0px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+div.hiddenicon {
+  display:none;
+}
+
+div.hiddenicon img{
+    width:12%;
+    float: right;
+    margin-top:5px;
+}
+
+a:hover {
+  color:#3DBEB5!important;
+}
+
+div.logo img{
+  width:7%;
+  margin-left: 7%;
+  margin-top: 1%;
+  position: absolute;
+  min-width:55px;
+}
+
+
+.fullheight {
+  height: 100vh;
+  min-height: 500px;
+  width:100vw;
+}
+
+header.fullheight {
+  color: #4A4A4A;
+  background-image: url("Newspapersbackground.jpg");
+  background-position: bottom;
+  background-size: cover;
+  background-color: #FFFEF5;
+  background-blend-mode: multiply;
+  padding-top:10%;
+}
+
+.herocontent {
+  width: 25%;
+  margin-left: 8%;
+  margin-top: 11%;
+  text-align:left;
+  min-width: 200px;
+}
+
+
+div.herocontent p {
+  color: #4A4A4A;
+  letter-spacing: 2.13px;
+  font-size: 32px;
+}
+
+.clear {
+  clear:both;
+}
+
+div.centralbutton img {
+  width:25%;
+  display: block;
+    margin: 0 auto;
+    margin-top: -18%;
+    min-width: 200px;
+    position:inherit;
+}
+
+div.rightimage img {
+  width:30%;
+  display: block;
+    margin-top: -28%;
+    margin-left: 65%;
+    min-width: 200px;
+}
+
+div.scrollup img{
+    width: 35%;
+    display: block;
+    margin: 0 auto;
+    margin-top: -14%;
+    min-width: 400px;
+}
+
+section.appfeatures {
+  margin:0%;
+  /*min-height: 100vh;*/
+  width: 100%;
+  padding: 5% 9.22% 5% 10%;
+  background: #FFFEF5;
+  background: -webkit-linear-gradient(#FFFEF5, #FDEBB4); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#FFFEF5, #FDEBB4); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#FFFEF5, #FDEBB4); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#FFFEF5, #FDEBB4); /* Standard syntax */
+}
+
+section.appfeatures h1 {
+  margin:auto;
+  font-family: "Avenir Next", sans-serif;
+  font-weight:400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 200%;
+  color: #4A4A4A;
+  text-align: center;
+  text-decoration: overline;
+  width: 100%;
+}
+
+/*section.appfeatures img {
+  width: 100%;
+  display: block;
+    margin:0 auto;
+  margin-top: -230px;
+}*/
+
+section.appfeatures img{
+  width: 100%;
+/*  margin-top:35%;*/
+}
+
+section.appfeatures h2{
+  font-size:30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight:300;
+  text-align: center;
+}
+
+section.appfeatures h5{
+  font-size:20px;
+  letter-spacing: 2.11px;
+  font-weight:lighter;
+  color:#9B9B9B;
+  margin-top:-10px;
+  text-align: center;
+}
+
+div.portitem {
+  width: 25%;
+  min-width:250px;
+  text-align:center;
+
+/*  margin:2.8%;*/
+/*  margin-top: -140px;
+*/
+}
+
+
+div.portitem > img {
+  width:80%;
+  overflow:hidden;
+}
+
+div.interests{
+  float:left;
+}
+
+
+div.topstories{
+  float:left;
+}
+
+div.savedstories{
+  float:left;
+}
+
+div.hottakes{
+  float:right;
+/*  margin-top: -230px;*/
+/*  margin-right: 10px;*/
+}
+
+.imgphone{
+  max-width: 250px;
+}
+
+.featuretext{
+  margin: 0px 15px 15px 0px;
+}
+
+.clear {
+  clear:both;
+}
+
+section.wearable {
+  margin:0%;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 4%;
+  background: #FDEBB4;
+  background: -webkit-linear-gradient(#FDEBB4, #FFFEF5); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#FDEBB4, #FFFEF5); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#FDEBB4, #FFFEF5); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#FDEBB4, #FFFEF5); /* Standard syntax */
+}
+
+section.wearable h1 {
+  font-family: "Avenir Next", sans-serif;
+  margin:2% auto;
+  font-weight:400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 32px;
+  color: #4A4A4A;
+  text-align: center;
+  /*background-color: rgba(62,190,181,0.3);*/
+  text-decoration: overline;
+}
+
+div.rightimage2 img{
+  width:30%;
+  margin-top:-31%;
+  margin-left: 58%;
+}
+
+section.wearable h2{
+  font-family: "Din Condensed", sans-serif;
+  font-weight:bold;
+  font-size: 45px;
+  color:#3DBEB5;
+  letter-spacing:10px;
+}
+
+section.wearable h4{
+  font-size: 30px;
+  font-weight:lighter;
+  color:#4A4A4A;
+  letter-spacing:2px;
+  width: 44%;
+  min-width: 400px;
+  line-height: 45px;
+}
+
+div.leftcolumn{
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+section.download {
+  color: #4A4A4A;
+  background-image: url("Newspapersbackground_flipped.jpg");
+  background-size: cover;
+  background-color: #FFFEF5;
+  background-blend-mode: multiply;
+  padding-top:5%;
+}
+
+section.download h1 {
+  font-family: "Avenir Next", sans-serif;
+  margin:2% auto;
+  font-weight:400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 32px;
+  color: #4A4A4A;
+  text-align: center;
+  text-decoration: overline;
+  /*background-color: rgba(62,190,181,0.3);*/
+}
+
+div.leftimage img{
+  width:55%;
+  margin-left: -5%;
+}
+
+section.download h2{
+  font-size:40px;
+  font-weight:normal;
+  color:#4A4A4A;
+  letter-spacing: 8px;
+  line-height: 43px;
+  text-align: center;
+  margin-top: -35%;
+  margin-left: 45%;
+}
+
+section.download h3{
+  font-family: "Din Condensed", sans-serif;
+  font-size:45px;
+  font-weight:bold;
+  color:#3DBEB5;
+  letter-spacing: 10px;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 0%;
+  margin-left: 45%;
+}
+
+div.rightcolumn img{
+  width:25%;
+  margin-top: -7%;
+  margin-left: 59.5%;
+  min-width: 200px;
+  /*position:relative;
+  left: 600px;*/
+}
+
+div.socialicons img{
+  width:12%;
+  margin-left: 5%;
+  min-width: 40px;
+}
+
+div.socialicons ul>li{
+  display: inline;
+  }
+
+div.socialicons ul{
+  padding-left: 61.5%;
+}
+
+div.bottom h5 {
+text-decoration:none;
+font-size: 15px;
+color: grey;
+font-weight:100;
+margin-bottom: 10px;
+text-align: center;
+}
+
+@media (max-width:1240px){
+  div.portitem {
+    width:50%;
+    text-align:center;
+    }
+
+    /*div.savedstories {
+      max-width: 48vw;
+      width:42%;
+    }*/
+
+  /*  margin:2.8%;*/
+  /*  margin-top: -140px;
+  */
+}
+
+@media (max-width:768px){
+  .herocontent {
+    width: 50%;
+    display: block;
+      margin: 6% auto;
+    text-align:center;
+    min-width: 350px;
+  }
+  div.centralbutton img {
+    width:25%;
+    display: block;
+      margin: 0 auto;
+      margin-top: -8%;
+      min-width: 200px;
+      position:inherit;
+  }
+  div.rightimage img {
+    width:30%;
+    display: block;
+      margin:auto;
+      min-width: 200px;
+  }
+  div.scrollup img{
+      margin-top: -10%;
+  }
+  div.portitem {
+    width:100%;
+    text-align:center;
+    }
+
+  section.wearable h2{
+    text-align:center;
+    display: block;
+    margin:auto;
+    margin-top: -5%;
+    }
+    section.wearable h4{
+      display: block;
+      margin:auto;
+      min-width: 600px;
+    }
+
+    div.rightimage2 img{
+      display: block;
+      margin:auto;
+    }
+
+    div.leftimage {
+      display:none;
+    }
+
+    section.download h2{
+      text-align: center;
+      display: block;
+      margin:10% auto;
+
+    }
+
+    section.download h3{
+      text-align: center;
+      display: block;
+      margin:10% auto;
+    }
+
+    div.rightcolumn img{
+      text-align: center;
+      display: block;
+      margin:-10% auto;
+    }
+
+    div.bottom h5 {
+  margin:20% auto;
+    text-align: center;
+    }
+
+    div.socialicons ul{
+      display: block;
+      margin-left:-35%;
+      margin-top:10%;
+    }
+}
+
+@media (max-width:550px) {
+    div.navcontent {
+    display:none;
+  }
+  div.hiddenicon {
+    display:block;
+  }
+  div.scrollup img{
+      margin-top: -10%;
+      padding-top: 4%;
+}
+  section.wearable h4{
+  display: block;
+  margin:auto;
+  min-width: 250px;
+  font-size: 150%;
+}
+  /*div.herocontent {
+    width: 40%;
+    display: block;
+      margin: 10% auto;
+      margin-bottom: 0%;
+    text-align:center;
+    min-width: 300px;
+    }
+    div.centralbutton img {
+      margin-top:-7%;
+    }
+    div.rightimage img {
+    margin-top:5%;
+    }*/
+}
